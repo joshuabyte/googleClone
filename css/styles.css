@@ -1,0 +1,13 @@
+:root{
+    --black1: #1a1a1a;
+    --black2: #202124;
+    --dark1: #333333;
+    --dark2: #3c4043;
+    --footer-gray: #70757a;
+    --very-light-gray: #e6e6e6;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
