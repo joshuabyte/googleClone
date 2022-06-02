@@ -1,3 +1,10 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
 :root{
     --black1: #1a1a1a;
     --black2: #202124;
@@ -8,59 +15,5 @@
     --sm: 13px;
     --md: 14px;
     --lg: 15px;
-}
-
-*{
-    text-decoration: none;
-    list-style: none;
-}
-
-body{
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.nine_dots{
-    width: 16px;
-    height: 16px;
-}
-
-.profile_picture{
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
-
-.navbar{
-    width: 100%;
-}
-
-.navbar ul{
-  display: flex;
-  justify-content: right;
-  align-items: center;   
-}
-
-.navbar ul li{
-    padding: 0px 7.5px;
-    font-size: var(--sm);
-}
-
-.navbar ul li a{
-    color: var(--black1);
-}
-
-.navbar ul img{
-    padding: 0px 15px;
-}
-
-
-ul{
-    padding: 0;
 }
 
